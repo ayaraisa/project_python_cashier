@@ -24,6 +24,8 @@ g. Membuat proses untuk menghitung total belanja yang harus dibayarkan dan disko
 
 **Alur code atau Flowchart**
 
+![](Flowchart.png)
+
 **Fungsi dan Atribut yang digunakan**
 
 1. Init()
@@ -34,7 +36,7 @@ cart (dict) = dictionary untuk menyimpan data transaksi
 
 ![](Aspose.Words.b045f79f-b7e1-4098-a67f-e4750265a1a1.001.png)
 
-1. Add\_item
+2. Add\_item
 
 Metode untuk menambahkan item pada dict
 
@@ -44,11 +46,9 @@ Item\_qty : int
 
 Item\_price : int
 
-![Graphical user interface, text, application
+![](Aspose.Words.b045f79f-b7e1-4098-a67f-e4750265a1a1.002.png)
 
-Description automatically generated](Aspose.Words.b045f79f-b7e1-4098-a67f-e4750265a1a1.002.png)
-
-1. Update\_item\_name
+3. Update\_item\_name
 
 Metode untuk mengganti nama pada item
 
@@ -58,53 +58,41 @@ Metode untuk mengganti nama pada item
 
 ![](Aspose.Words.b045f79f-b7e1-4098-a67f-e4750265a1a1.003.png)
 
-1. Update\_item\_qty
+4. Update\_item\_qty
 
 Metode untuk mengganti jumlah pada item
 
-![Graphical user interface, text, application
+![](Aspose.Words.b045f79f-b7e1-4098-a67f-e4750265a1a1.004.png)
 
-Description automatically generated](Aspose.Words.b045f79f-b7e1-4098-a67f-e4750265a1a1.004.png)
-
-1. Update\_item\_price
+5. Update\_item\_price
 
 Metode untuk mengganti harga pada item
 
-![Graphical user interface, text, application
+![](Aspose.Words.b045f79f-b7e1-4098-a67f-e4750265a1a1.005.png)
 
-Description automatically generated](Aspose.Words.b045f79f-b7e1-4098-a67f-e4750265a1a1.005.png)
-
-1. Delete\_item
+6. Delete\_item
 
 Metode untuk menghapus pesanan
 
-![Text
+![](Aspose.Words.b045f79f-b7e1-4098-a67f-e4750265a1a1.006.png)
 
-Description automatically generated with medium confidence](Aspose.Words.b045f79f-b7e1-4098-a67f-e4750265a1a1.006.png)
-
-1. Reset\_item
+7. Reset\_item
 
 Metode untuk menghapus seluruh pesanan
 
-![A picture containing text
+![](Aspose.Words.b045f79f-b7e1-4098-a67f-e4750265a1a1.007.png)
 
-Description automatically generated](Aspose.Words.b045f79f-b7e1-4098-a67f-e4750265a1a1.007.png)
-
-1. Show\_order
+8. Show\_order
 
 Metode untuk menampilkan pesanan yang sudah terinput di dict
 
-![Text
+![](Aspose.Words.b045f79f-b7e1-4098-a67f-e4750265a1a1.008.png)
 
-Description automatically generated](Aspose.Words.b045f79f-b7e1-4098-a67f-e4750265a1a1.008.png)
-
-1. Total\_price
+9. Total\_price
 
 Metode untuk menjumlahkan total belanja
 
-![Table
-
-Description automatically generated](Aspose.Words.b045f79f-b7e1-4098-a67f-e4750265a1a1.009.png)
+![](Aspose.Words.b045f79f-b7e1-4098-a67f-e4750265a1a1.009.png)
 
 **Demonstrasi**
 
@@ -112,26 +100,22 @@ Description automatically generated](Aspose.Words.b045f79f-b7e1-4098-a67f-e47502
 
 Customer ingin menambahkan dua item dalam daftar pesanan. Item tersebut adalah:
 
-1. Ayam Goreng sebanyak 2 buah seharga 20.000
-1. Pasta Gigi sebanyak 3 buah seharga 15.000
+a. Ayam Goreng sebanyak 2 buah seharga 20.000
+b. Pasta Gigi sebanyak 3 buah seharga 15.000
 
 Method yang digunakan adalah add\_item
 
-![Table
+![](Aspose.Words.b045f79f-b7e1-4098-a67f-e4750265a1a1.010.png)
 
-Description automatically generated with medium confidence](Aspose.Words.b045f79f-b7e1-4098-a67f-e4750265a1a1.010.png)
-
-1. Mengapus item
+2. Mengapus item
 
 Customer ingin membatalkan pesanan Pasta Giginya
 
 Method yang digunakan adalah delete\_item
 
-![A picture containing box and whisker chart
+![](Aspose.Words.b045f79f-b7e1-4098-a67f-e4750265a1a1.011.png)
 
-Description automatically generated](Aspose.Words.b045f79f-b7e1-4098-a67f-e4750265a1a1.011.png)
-
-1. Menghapus  semua pesanan
+3. Menghapus  semua pesanan
 
 Customer ingin membatalkan semua pesanan
 
@@ -139,17 +123,15 @@ Method yang digunakan adalah reset\_item
 
 ![](Aspose.Words.b045f79f-b7e1-4098-a67f-e4750265a1a1.012.png)
 
-1. Menghitung Total belanja
+4. Menghitung Total belanja
 
 Customer ingin membayar belanjanya, sehingga diperlukan total  yang harus dibayar
 
 Method yang digunakan adalah total\_price
 
-![A picture containing table
-
-Description automatically generated](Aspose.Words.b045f79f-b7e1-4098-a67f-e4750265a1a1.013.png)
+![](Aspose.Words.b045f79f-b7e1-4098-a67f-e4750265a1a1.013.png)
 
 **Conclusion**
-
+Dalam sistem kasir ini, dapat disimpulkan bahwa sistem kasir ini dapat digunakan untuk berbagai feature
 
 
